@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
                 call: Call<ResponseDataClass?>,
                 t: Throwable,
             ) {
-                Toast.makeText(this@MainActivity,"Eroorr:${t.localizedMessage}", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this@MainActivity,"Error:${t.localizedMessage}", Toast.LENGTH_SHORT).show()
 
 
             }
